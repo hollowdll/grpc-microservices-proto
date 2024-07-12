@@ -4,7 +4,7 @@
 syntax = "proto3";
 package inventorypb;
 
-option go_package = "github.com/hollowdll/grpc-microservices-proto/inventory";
+option go_package = "/inventorypb";
 
 message ProductDetails {
   // The code that identifies the product.

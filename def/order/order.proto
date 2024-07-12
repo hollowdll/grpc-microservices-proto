@@ -4,7 +4,7 @@
 syntax = "proto3";
 package orderpb;
 
-option go_package = "github.com/hollowdll/grpc-microservices-proto/order";
+option go_package = "/orderpb";
 
 message OrderItem {
   // The code of the ordered product.
